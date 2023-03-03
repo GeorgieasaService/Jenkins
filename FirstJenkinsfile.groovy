@@ -6,7 +6,7 @@ pipeline {
     }
     stages {
         stage('fetching the repo') {
-            steps{
+            steps {
                 git branch: 'vp-rem', url: 'https://github.com/devopshydclub/vprofile-repo.git'
             }
         }
@@ -28,4 +28,3 @@ pipeline {
         }
         }
     }
-}
